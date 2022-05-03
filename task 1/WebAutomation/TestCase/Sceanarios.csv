@@ -1,0 +1,11 @@
+Sceanario	Precondition	When	Then
+User Is Able To Navigate to Shopping Page	User is in home page	User click on start shopping link	User should be navigate to shopping page
+User Is Able To Navigate to Contact Page	User is in home page	User click on cotact link	User should be navigate to contact page
+User Is Able To Navigate to LoginPage	User is in home page	User click on cart link	User should be navigate to login  page
+User Is Able To Navigate to Cart Page	User is in home page	User click on login link	User should be navigate to cart page
+User Is Able to Submit Order	User is in home page	User is trying to submit order	User should be able to submit order if he/she has item on cart
+User is Able To See CheckOut Button When Item Is In Cart 	User is in home page	User click on cart link 	User should be able to see checkOut link if he/she has item in cart
+User Is Able To Add Item In Cart And Total Item Number Should Display On Cart	User is in cart page	User try to add item on cart	User should see the correct number of total item in cart
+User Is Able To EmptyCart By Clicking Empty Cart Button	User is in contact page	User try to empty acrt	User should be able to empty acrt and see total item on cart is zero
+User is Abel To Submit Contact Information	User is in shopping page	User try to submit contact information by filling up the form	User should be able to submit contact inforamation
+User Is Able to Navigate CheckOut Page IfItem Is In Cart	User is in cart page page	User click on checkOut link	User should be able to see checkout page
